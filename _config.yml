@@ -1,11 +1,11 @@
 # Site settings
 author: Ana Betancourt
-title: 
+title: Ana's Adventures in Coding
 header-img: img/home-bg.png
 email: anaa.betancourt13@gmail.com
 copyright_name: Ana Betancourt
 description: > # this means to ignore newlines until "baseurl:"
-  
+  The struggles and triumphs of becoming a Software Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  AnaBetancourt
