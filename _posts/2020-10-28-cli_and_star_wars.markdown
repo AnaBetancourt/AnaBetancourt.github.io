@@ -1,0 +1,24 @@
+---
+layout: post
+title:      "CLI and Star Wars"
+date:       2020-10-29 01:34:30 +0000
+permalink:  cli_and_star_wars
+---
+
+![](https://media.giphy.com/media/3o84sF21zQYacFcl68/giphy.gif)
+
+When taking a first glance at the project requirements, I was terrified. Until Flatiron, I had never even heard of the Ruby language (yes, really...) and now I was going to create an entire application with it? To be honest I was a little unsure if I'd be able to. As my cohort and I continued working through our lessons and learning about OO Ruby, my confidence rose and fell and rose again. A few labs made me question my sanity as I spent time staring at the screen hoping my code would tell me what was wrong and magically work. Though with a little helpful hint I'd always come out triumphant! Week by week, I learned more and cultivated skills that would assist me in creating my application. 
+
+
+## The Project 
+Creating this app was honestly a bit of a struggle but definitely a major learning experience. To begin with, I had to find an API that I enjoyed working with and that I understood. Initially I had chosen a suggested API but then decided to challenge myself to find one on my own. That choice led me to the API I used (SWAPI - the Star Wars API). Upon exploring the API, I discovered that some of the information was straight-forward and others were links to more APIs. Never one to turn down a challenge, I decided I'd make my application not only gather information regarding the films but also the characters. That was easier said than done. The initial steps of providing the user with a list of films and their data wasn't too hard (thanks to an awesome cohort lead I felt totally prepared!), however once I started trying to incorporate characters things got a little harder. After two days of being stuck and staring helplessly at my code (because sometimes that method actually helps me) I learned that my major obstacle was a letter. One. Single. Letter. Ugh. Back into the grind I went, and the rest of the app just seemed to flow. It was very rewarding getting to see all that I had learned come to fruition in my app.  
+
+
+## But How? 
+Once I had found the API I wanted to work with, I had to get to work on thinking of a name and starting to actually build it. For the name, I went with F1NDR Droid. As a nod to my subject matter, I imagined I was creating a droid named F1NDR who would assist the user in learning a little about Star Wars. To keep with that theme, I decided I would try to personify my application during its dialogue with the user. I also decided that I would be gathering data for both films and characters, which meant I had to create two classes (and object relationships!). I began by getting the application running strictly for the film class, deciding to add-in characters later. I needed additional classes for parsing the information from the API and interacting with the user, so I created the CLI and API classes. In order to allow the different classes to communicate with each other I created an environment file. In order to run my program, I created an executable file. Lastly, I created a README file to describe the application and its usage. Once all my files were created, I got to work! Starting slowly, I simply created my classes and gave them their attributes. Then came the API class, in which I had to feed a URL in and take the information from that webpage and grab what I needed to present to the user. The CLI class then had to be created with a "start" method and I began running my program to gather the information and go from there. I got myself into a rhythm; code, test, fix, repeat (also "Oh no! Did I commit? Let's commit.").  
+##### Issues 
+My rhythm definitely got stuck on "fix" many, many times. I've learned that to code is to fail over and over (and over) then once in a while succeed until you've built something. Rather than be discouraged, I focused on the positive: with every failure-turned-functional...I was learning. Even through the process of finding the failure I learned. I am now comfortable with debugging and using pry, that's for sure. I was challenged to think differently, approach from other angles, and problem solve. That one letter I mentioned getting stuck on? A link was http instead of https, and therefore wasn't working properly when I tried to parse it. I then had to take the link and split it from a string to an array, add the "s", and join it back together before feeding it into my method. I also learned to pay close attention and every little detail matters.  
+
+
+## What now? 
+I will probably go back and refactor my code in this application as I expand my knowledge and will definitely look into building another CLI app. My next app I'd like to be something that could actually be of use with more levels and functionality. It is so cool knowing I can do that!! 
